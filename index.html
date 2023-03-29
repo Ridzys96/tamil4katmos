@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>TAMIL 4K-ATMOS</title>
+    <link rel='icon' href="images/title.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+
+<body>
+    <script src="app.js"></script>
+    <nav>
+        <div class="header">
+            <a href="index.html" Style="text-decoration:none ;"><img src="img/title.png"
+                    Style="text-decoration:none ;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <!-----items to be here-->
+            </div>
+            <i class="fa-solid fa-bars " onclick="showmenu()"></i>
+        </div>
+    </nav>
+
+    <section class="contents">
+        <form>
+            <i class="fas fa-search"></i>
+            <input type="text" name="" id="search-item" placeholder="Search Your Content" onkeyup="search()">
+        </form>
+
+        <div class="movies">
+            <div class="responsive">
+                <div class="gallery">
+                    <h1>avatar 2 avatar way of water avatar</h1>
+                    <a href="movies/avatar/movie.html">
+                        <img src="movies/avatar/x.jpg" alt="avatar ">
+                    </a>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <h1> sengalam </h1>
+                    <a href="movies/Sengalam/movie.html">
+                        <img src="movies/Sengalam/x.jpg" alt="sengalam">
+                    </a>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <h1>johnwick johnwick1 johnwick2 johnwick3 john wick 1 john wick 2 john wick 3</h1>
+                    <a href="movies/John Wick/movie.html">
+                        <img src="movies/John Wick/x.jpg" alt="John Wick">
+                    </a>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <h1> dada </h1>
+                    <a href="movies/Dada/movie.html">
+                        <img src="movies/Dada/x.jpg" alt="Dada">
+                    </a>
+                </div>
+            </div>
+            <div style="display: none;" class="responsive">
+                <div class="gallery">
+                    <h1></h1>
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <p class="noresults"><i class="fa-solid fa-face-sad-tear"></i> No Results <i
+            class="fa-solid fa-face-sad-tear"></i></p>
+    </section>
+
+
+</body>
+
+</html>
